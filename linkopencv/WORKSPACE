@@ -1,0 +1,7 @@
+workspace(name = "bazel_test")
+ 
+new_local_repository(
+    name = "opencv",
+    path = "/root/alan/3rdparty/opencv/install",
+    build_file = "opencv.BUILD",
+)
